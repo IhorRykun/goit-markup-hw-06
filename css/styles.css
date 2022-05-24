@@ -814,3 +814,19 @@ ul {
 .footer-telephone {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.btn-footer-form {
+  width: 200px;
+  height: 50px;
+  background: #2196F3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px
+}
+
+.btn-footer-form::after {
+  display: block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-color: red;
+}
