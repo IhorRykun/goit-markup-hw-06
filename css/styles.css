@@ -825,6 +825,10 @@ ul {
 .btn-footer-form {
   width: 200px;
   height: 50px;
+  padding-left: 29px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
   background: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -836,7 +840,7 @@ ul {
   text-align: center;
   letter-spacing: 0.06em;
 
-  color: #FFFFFF
+  color: #FFFFFF;
 }
 
 .btn-footer-form::after {
@@ -847,6 +851,5 @@ ul {
   background-image: url(../images/svg/send.svg);
   background-size: contain;
   background-position: center;
-
-
+  margin-left: 10px;
 }
