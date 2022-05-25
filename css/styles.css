@@ -860,6 +860,7 @@ ul {
 
   color: #FFFFFF;
   border: none;
+  cursor: pointer;
 }
 
 .btn-footer-form::after {
