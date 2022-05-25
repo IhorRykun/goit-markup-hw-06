@@ -339,6 +339,11 @@ ul {
 
 }
 
+.btn-back-drop:hover .svg-btn-close,
+.btn-back-drop:focus .svg-btn-close {
+  fill: var(--blue-cl);
+}
+
 .list-item {
   display: block;
   width: 270px;
