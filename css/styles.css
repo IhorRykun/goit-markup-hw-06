@@ -296,6 +296,17 @@ ul {
   width: 100%;
 }
 
+.leble-wreper {
+  position: relative;
+
+}
+
+.svg-form-model-wraper {
+  position: absolute;
+  left: 15px;
+  top: 25px;
+  transform: translatex(-25%);
+}
 
 /* секція особливості */
 .list-title {
