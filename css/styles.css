@@ -293,9 +293,9 @@ ul {
 /* форма врапера */
 
 .input-wraper {
-  padding-top: 14px;
-  padding-bottom: 14px;
+  width: 100%;
 }
+
 
 /* секція особливості */
 .list-title {
