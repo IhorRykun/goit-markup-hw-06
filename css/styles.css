@@ -294,18 +294,30 @@ ul {
 
 .input-wraper {
   width: 100%;
+  padding: 15px;
+  margin-bottom: 28px;
+  outline-color: var(--blue-cl);
 }
 
-.leble-wreper {
+.input-wraper:focus+.lable-wraper {
+  color: var(--blue-cl);
+  transform: translate(-30px, -40px);
+}
+
+.input-wraper:focus~.svg-form-model-wraper {
+  fill: var(--blue-cl);
+}
+
+.container-form-wraper {
   position: relative;
-
 }
 
-.svg-form-model-wraper {
+.lable-wraper {
   position: absolute;
-  left: 15px;
-  top: 25px;
-  transform: translatex(-25%);
+  left: 30px;
+  top: 18px;
+  transform: translateY(-18%);
+
 }
 
 /* секція особливості */
