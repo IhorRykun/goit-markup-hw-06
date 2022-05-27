@@ -301,7 +301,7 @@ ul {
 
 .input-wraper:focus+.lable-wraper {
   color: var(--blue-cl);
-  transform: translate(-30px, -40px);
+  transform: translate(-83px, -40px);
 }
 
 .input-wraper:focus~.svg-form-model-wraper {
@@ -314,7 +314,7 @@ ul {
 
 .lable-wraper {
   position: absolute;
-  left: 30px;
+  left: 83px;
   top: 18px;
   transform: translateY(-18%);
 
