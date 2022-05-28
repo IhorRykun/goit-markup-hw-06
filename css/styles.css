@@ -293,20 +293,38 @@ ul {
 /* форма врапера */
 
 .input-wraper {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+  padding: 12px 0;
   width: 100%;
-  padding: 15px;
   margin-bottom: 28px;
   outline-color: var(--blue-cl);
 }
 
-.input-wraper:focus+.lable-wraper {
+.input-wraper:focus+.lable-wraper,
+.input-wraper:not(:placeholder-shown)+.lable-wraper {
   color: var(--blue-cl);
   transform: translate(-83px, -40px);
 }
 
-.input-wraper:focus~.svg-form-model-wraper {
-  fill: var(--blue-cl);
+/* ікнока в імпутах врапера */
+
+.form-wraper-swg {
+  position: absolute;
+  top: 8%;
+  left: 15px;
+  transform: translateY(-8%);
+  padding-top: 14px;
+  padding-bottom: 14px;
 }
+
+.input-wraper:focus~.form-wraper-swg {
+  fill: var(--blue-cl);
+
+}
+
 
 .container-form-wraper {
   position: relative;
@@ -314,10 +332,15 @@ ul {
 
 .lable-wraper {
   position: absolute;
-  left: 83px;
-  top: 18px;
-  transform: translateY(-18%);
+  left: 42px;
+  top: 10px;
 
+  font-size: 12px;
+  line-height: 1.16;
+
+  letter-spacing: 0.01em;
+
+  color: #757575
 }
 
 /* секція особливості */
