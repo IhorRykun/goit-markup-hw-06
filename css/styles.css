@@ -302,6 +302,13 @@ ul {
   margin-bottom: 28px;
   padding-left: 42px;
   outline-color: var(--blue-cl);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.texterea-form-wraper {
+  width: 100%;
+  resize: none;
 }
 
 .input-wraper:focus+.lable-wraper,
@@ -386,7 +393,33 @@ ul {
   height: 30px;
   cursor: pointer;
 
+}
 
+.form-wraper-swg {
+  position: absolute;
+  top: -1%;
+  left: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.input-wraper:focus~.form-wraper-swg {
+  fill: var(--blue-cl);
+}
+
+.container-form-wraper {
+  position: relative;
+}
+
+.lable-wraper {
+  position: absolute;
+  left: 42px;
+  top: 17px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: #757575
 }
 
 .btn-back-drop:hover .svg-btn-close,
