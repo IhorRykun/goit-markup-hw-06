@@ -293,20 +293,21 @@ ul {
 /* форма врапера */
 
 .input-wraper {
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1.16;
   letter-spacing: 0.01em;
   color: #757575;
   padding: 12px 0;
   width: 100%;
   margin-bottom: 28px;
+  padding-left: 42px;
   outline-color: var(--blue-cl);
 }
 
 .input-wraper:focus+.lable-wraper,
 .input-wraper:not(:placeholder-shown)+.lable-wraper {
   color: var(--blue-cl);
-  transform: translate(-83px, -40px);
+  transform: translate(-40px, -35px);
 }
 
 /* ікнока в імпутах врапера */
@@ -321,9 +322,7 @@ ul {
 
 .input-wraper:focus~.form-wraper-swg {
   fill: var(--blue-cl);
-
 }
-
 
 .container-form-wraper {
   position: relative;
@@ -332,11 +331,9 @@ ul {
 .lable-wraper {
   position: absolute;
   left: 42px;
-  top: 10px;
-
+  top: 17px;
   font-size: 12px;
   line-height: 1.16;
-
   letter-spacing: 0.01em;
 
   color: #757575
@@ -345,7 +342,6 @@ ul {
 /* секція особливості */
 .list-title {
   margin-bottom: 10px;
-
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
