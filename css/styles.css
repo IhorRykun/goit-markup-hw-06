@@ -313,9 +313,8 @@ ul {
 
 .form-wraper-swg {
   position: absolute;
-  top: 8%;
+  top: -1%;
   left: 15px;
-  transform: translateY(-8%);
   padding-top: 14px;
   padding-bottom: 14px;
 }
