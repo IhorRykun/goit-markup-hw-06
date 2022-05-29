@@ -304,12 +304,14 @@ ul {
   outline-color: var(--blue-cl);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wraper:focus+.lable-wraper,
 .input-wraper:not(:placeholder-shown)+.lable-wraper {
   color: var(--blue-cl);
   transform: translate(-40px, -35px);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ікнока в імпутах врапера */
@@ -324,6 +326,7 @@ ul {
 
 .input-wraper:focus~.form-wraper-swg {
   fill: var(--blue-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-form-wraper {
@@ -340,10 +343,6 @@ ul {
 
   color: #757575
 }
-
-
-
-
 
 /* секція особливості */
 .list-title {
@@ -391,6 +390,7 @@ ul {
   width: 30px;
   height: 30px;
   cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
@@ -400,10 +400,12 @@ ul {
   left: 15px;
   padding-top: 14px;
   padding-bottom: 14px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wraper:focus~.form-wraper-swg {
   fill: var(--blue-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-form-wraper {
@@ -418,18 +420,19 @@ ul {
   line-height: 1.16;
   letter-spacing: 0.01em;
 
-  color: #757575
+  color: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-back-drop:hover .svg-btn-close,
 .btn-back-drop:focus .svg-btn-close {
   fill: var(--blue-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-item {
   display: block;
   width: 270px;
-
 }
 
 .list-specific .list-item+.list-item {
@@ -444,23 +447,33 @@ ul {
   letter-spacing: 0.01em;
   color: #757575;
   padding: 12px 0;
-  margin-bottom: 28px;
+  margin-bottom: 20px;
   padding-left: 16px;
   outline-color: var(--blue-cl);
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .texterea-lable-wraper {
   position: absolute;
   left: 1px;
   top: -17px;
-
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
 
-  color: #757575
+  color: #757575;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.container-wraper-button {
+  display: flex;
+  justify-content: center;
+}
+
+.checkbox-private {
+  margin-bottom: 30px;
 }
 
 /* Наші послуги */
@@ -483,6 +496,7 @@ ul {
 
 .texterea-form-wraper:focus+.texterea-lable-wraper {
   color: var(--blue-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* наша команда */
@@ -563,6 +577,7 @@ ul {
 
 .lin .link-inst:hover {
   background-color: var(--blue-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tim {
@@ -1016,6 +1031,7 @@ ul {
   padding-bottom: 15px;
 
   color: var(--white-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-form-footer {
