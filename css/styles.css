@@ -471,13 +471,27 @@ ul {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.container-wraper-button {
-  display: flex;
-  justify-content: center;
-}
 
 .checkbox-private {
   margin-bottom: 30px;
+}
+
+.container-wraper-private {
+  position: relative;
+}
+
+.svg-box-tik {
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 0;
+  border-radius: 2px;
+  background-color: red;
+
+  border-radius: 2px;
+  width: 15px;
+  height: 16px;
+
 }
 
 /* Наші послуги */
