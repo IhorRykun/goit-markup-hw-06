@@ -306,11 +306,6 @@ ul {
   border-radius: 4px;
 }
 
-.texterea-form-wraper {
-  width: 100%;
-  resize: none;
-}
-
 .input-wraper:focus+.lable-wraper,
 .input-wraper:not(:placeholder-shown)+.lable-wraper {
   color: var(--blue-cl);
@@ -345,6 +340,10 @@ ul {
 
   color: #757575
 }
+
+
+
+
 
 /* секція особливості */
 .list-title {
@@ -437,6 +436,33 @@ ul {
   margin-left: 30px;
 }
 
+.texterea-form-wraper {
+  resize: none;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: #757575;
+  padding: 12px 0;
+  margin-bottom: 28px;
+  padding-left: 16px;
+  outline-color: var(--blue-cl);
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+}
+
+.texterea-lable-wraper {
+  position: absolute;
+  left: 1px;
+  top: -17px;
+
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+
+  color: #757575
+}
+
 /* Наші послуги */
 
 .section-poslygi {
@@ -453,6 +479,10 @@ ul {
   text-align: center;
 
   color: var(--black-cl);
+}
+
+.texterea-form-wraper:focus+.texterea-lable-wraper {
+  color: var(--blue-cl);
 }
 
 /* наша команда */
