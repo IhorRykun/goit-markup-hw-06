@@ -474,6 +474,9 @@ ul {
 
 .checkbox-private {
   margin-bottom: 30px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 .container-wraper-private {
@@ -483,15 +486,12 @@ ul {
 .svg-box-tik {
   display: block;
   position: absolute;
-  top: 2px;
-  left: 0;
-  border-radius: 2px;
-  background-color: red;
-
-  border-radius: 2px;
-  width: 15px;
-  height: 16px;
-
+  left: -20px;
+  top: 0px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 
 /* Наші послуги */
