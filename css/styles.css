@@ -509,6 +509,14 @@ ul {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.checkbox-private-input {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+}
+
 
 .checkbox-private-input:checked+.custom-chechbox {
   background-color: var(--blue-cl);
@@ -517,9 +525,7 @@ ul {
 }
 
 .checkbox-private-input:focus+.custom-chechbox {
-  background-color: var(--blue-cl);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  outline-color: var(--black-cl);
+  outline-color: var(--blue-cl);
 }
 
 .container-wraper-button {
