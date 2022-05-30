@@ -525,7 +525,7 @@ ul {
 }
 
 .checkbox-private-input:focus+.custom-chechbox {
-  outline-color: var(--blue-cl);
+  outline-color: var(--black-cl);
 }
 
 .container-wraper-button {
