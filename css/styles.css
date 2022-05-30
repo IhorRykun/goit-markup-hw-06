@@ -516,6 +516,12 @@ ul {
   outline-color: var(--blue-cl);
 }
 
+.checkbox-private-input:focus+.custom-chechbox {
+  background-color: var(--blue-cl);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  outline-color: var(--black-cl);
+}
+
 .container-wraper-button {
   display: flex;
   justify-content: center;
@@ -680,7 +686,6 @@ ul {
 
 .visual-hidden {
   transform: scale(0);
-  position: fixed;
 }
 
 .main-portfolio {
