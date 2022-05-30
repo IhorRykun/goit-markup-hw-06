@@ -463,6 +463,10 @@ ul {
   cursor: pointer;
 }
 
+.lable-wraper {
+  cursor: pointer;
+}
+
 .texterea-lable-wraper {
   position: absolute;
   left: 1px;
