@@ -330,7 +330,7 @@ ul {
 
 .form-wraper-swg {
   position: absolute;
-  top: -1%;
+  top: -3%;
   left: 15px;
   padding-top: 14px;
   padding-bottom: 14px;
@@ -348,7 +348,7 @@ ul {
 .lable-wraper {
   position: absolute;
   left: 42px;
-  top: 14px;
+  top: 16px;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
