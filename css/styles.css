@@ -330,8 +330,9 @@ ul {
 
 .form-wraper-swg {
   position: absolute;
-  top: -3%;
+  top: -6px;
   left: 15px;
+  transform: translateY(6%);
   padding-top: 14px;
   padding-bottom: 14px;
 }
@@ -348,7 +349,8 @@ ul {
 .lable-wraper {
   position: absolute;
   left: 42px;
-  top: 16px;
+  top: 17px;
+  transform: translateY(-17%);
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
@@ -404,15 +406,6 @@ ul {
   cursor: pointer;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-}
-
-.form-wraper-swg {
-  position: absolute;
-  top: -1.5%;
-  left: 15px;
-  padding-top: 14px;
-  padding-bottom: 14px;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .input-wraper:focus~.form-wraper-swg {
