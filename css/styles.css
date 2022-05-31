@@ -420,7 +420,8 @@ ul {
 .lable-wraper {
   position: absolute;
   left: 42px;
-  top: 17px;
+  top: 13px;
+  transform: translateY(13%);
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.01em;
