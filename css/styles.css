@@ -48,6 +48,7 @@ ul {
   background-color: var(--white-cl);
 }
 
+/* силки хедеру */
 .link {
   display: block;
   padding-top: 32px;
@@ -217,6 +218,8 @@ ul {
   justify-content: space-around;
 }
 
+/* вікно бек-дропу */
+
 .back-drop {
   position: fixed;
   top: 0;
@@ -358,7 +361,6 @@ ul {
   color: #757575
 }
 
-/* секція особливості */
 .list-title {
   margin-bottom: 10px;
   font-weight: 700;
@@ -526,6 +528,9 @@ ul {
   display: flex;
   justify-content: center;
 }
+
+/* секція особливості */
+
 
 /* Наші послуги */
 
