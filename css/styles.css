@@ -527,6 +527,11 @@ ul {
   justify-content: center;
 }
 
+.swg-custom {
+  width: 12px;
+  height: 12px;
+}
+
 /* Наші послуги */
 
 .section-poslygi {
